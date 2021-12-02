@@ -1,0 +1,64 @@
+.gpt3__features {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    text-align: center;
+    margin: 80px 0;
+}
+
+.gpt3__features h2 {
+    color: var(--color-bg);
+}
+
+.gpt3__features button {
+    background: transparent;
+    background-color: var(--color-bg);
+    color: var(--color-blue);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gpt3__features .flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gpt3__features .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar);
+    width: 100%;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.gpt3__features .logo {
+    max-width: 250px;
+    margin-top: 20px;
+}
+
+.card-img-top {
+    width: 300px;
+    margin-top: -104px;
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__features .flex {
+        flex-direction: column;
+    }
+
+    .gpt3__features .card {
+        margin-top: 75px;
+    }
+
+}

@@ -4,8 +4,8 @@ import './cta.css';
 const CTA = () => (
     <div className="gpt3__cta">
         <div className="gpt3__cta-content">
-            <p>Nós enviamos os sensores</p>
-            <h3>Register Today & start exploring the endless possibilities.</h3>
+            <h3>Nós enviamos os sensores</h3>
+            <p>Fazemos a entrega pelos Correios para o Brasil todo. Você recebe o sensor na sua empresa. Não necessita passar pelo Wi-Fi industrial e nem falar com a TI.</p>
         </div>
         <div className="gpt3__cta-btn">
             <button type="button">Get Started</button>

@@ -19,6 +19,14 @@ a {
   margin-top: 40px;
 }
 
+.lead {
+  font-size: 19px;
+}
+
+.text-light {
+  color: var(--color-bg);
+}
+
 .btn {
   flex: 0.6;
   width: 100%;
