@@ -4,7 +4,7 @@ import './possibility.css';
 const Possibility = () => {
     return (
         <div>
-            <h1>Possibility</h1>
+            <h1>Por que escolher a Tractian?</h1>
         </div>
     )
 }

@@ -7,11 +7,16 @@
 
 body {
   background: var(--color-bg);
+  font-family: var(--font-family);
 }
 
 a {
   color: unset;
   text-decoration: none;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 .btn {
@@ -35,6 +40,8 @@ a {
   background: var(--color-main);
   border: 2px solid var(--color-main);
 }
+
+.btn-secundary {}
 
 .gradient__bg {
   background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);

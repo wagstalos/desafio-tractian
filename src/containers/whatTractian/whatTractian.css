@@ -1,0 +1,94 @@
+.gpt3__whatTractian {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    text-align: center;
+    background-color: #fafafa;
+    padding: 0 40px;
+}
+
+.gpt3__whatTractian button {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid var(--color-main) 1px;
+    font-weight: 700;
+    color: var(--color-main);
+    padding: 13px 22px;
+    font-size: 16px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.gpt3__whatTractian button:hover {
+    background-color: var(--color-main);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid var(--color-bg) 1px;
+    font-weight: 700;
+    color: var(--color-bg);
+    padding: 13px 22px;
+    font-size: 16px;
+
+}
+
+.gpt3__whatTractian h4 {
+    color: var(--color-main);
+    padding-top: 80px;
+}
+
+.gpt3__whatTractian h2 {
+    margin-bottom: 10px;
+}
+
+.gpt3__whatTractian-column {
+    width: 50%;
+}
+
+.gpt3__whatTractian-content {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+
+}
+
+.gpt3__whatTractian img {
+    width: 50%;
+}
+
+.react-tabs {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.react-tabs__tab--selected {
+    background: var(--color-main) !important;
+    border: var(--color-main) !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+    font-weight: 800;
+}
+
+.react-tabs__tab {
+    color: #9c9c9c;
+    font-weight: 800;
+}
+
+.react-tabs__tab-list {
+    border-bottom: 1px solid #fff !important;
+    background-color: #f2f2f2;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 36px;
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__whatTractian-column {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+    }
+}

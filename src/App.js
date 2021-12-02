@@ -8,7 +8,7 @@ import {
   WhatTractian,
   Header,
 } from "./containers";
-import { CTA, Brand, Navbar } from "./components";
+import { CTA, Navbar } from "./components";
 import "./App.css";
 
 const App = () => {
@@ -18,7 +18,6 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
-      <Brand />
       <WhatTractian />
       <Features />
       <Possibility />

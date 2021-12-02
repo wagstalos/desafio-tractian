@@ -2,6 +2,7 @@ import React from 'react';
 import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
 import './header.css';
+import Brand from '../../components/brand/Brand';
 
 const Header = () => (
     <div className="gpt3__header section__padding" id="home">
@@ -17,11 +18,13 @@ const Header = () => (
                 {/* <img src={people} /> */}
                 <h4>Já é cliente? <strong>Acesse aqui</strong> .</h4>
             </div>
+            <Brand />
         </div>
 
         <div className="gpt3__header-image">
             <img src={ai} />
         </div>
+
     </div>
 );
 
