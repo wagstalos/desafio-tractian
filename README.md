@@ -22,7 +22,7 @@ project link}</a>
 
 <div  align="center" >
     
-       <img src="https://wpsgames.com.br/img/screenshot-tractian.jpg" alt="Desafio">
+       <img src="https://wpsgames.com.br/img/screenshot-tractian.jpg" alt="">
 </div>
 
 <div  align="center" > 
