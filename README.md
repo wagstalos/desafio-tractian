@@ -21,8 +21,6 @@ project link}</a>
 </h1>
 
 <div  align="center" >
-    
-       <img src="https://wpsgames.com.br/img/screenshot-tractian.jpg" alt="">
      <img src="https://github.com/wagstalos/lp-neon/blob/master/img/mockup-02.png" alt="desafio">
 </div>
 
