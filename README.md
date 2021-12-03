@@ -8,7 +8,7 @@ project link}</a>
 <h3 align="center">## Descrição do Projeto {Project description} ##</h3>
 
 
-<p align="center"> Neste projeto eu estou desenvolvi uma landing page para o curso Desafio de emprego da Tractian</p>
+<p align="center"> Neste projeto eu desenvolvi um redesign landing page da Tractian</p>
 
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=Site&message=HTML/CSS/JS/ReactJS&color=3498db&style=for-the-badge&logo="/>
