@@ -1,8 +1,3 @@
-Para rodar o projeto
-### `npm i react-install`
-
-### `npm i react-tabs`
-
 <h1 align="center">Landing Page Tractian (By Wagner Paulo)</h1>
 
 <h2 align="center">
@@ -34,6 +29,10 @@ As seguintes tecnologias foram usadas na construção do projeto <br> {The follo
 
 </div>
 
+Para rodar o projeto
+### `npm i react-install`
+
+### `npm i react-tabs`
 
 <div  align="center" > 
     Feito com ❤️ por Wagner Paulo 👋🏽
