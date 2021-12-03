@@ -16,7 +16,7 @@ project link}</a>
 <p align="center"> Neste projeto eu estou desenvolvi uma landing page para o curso Desafio de emprego da Tractian</p>
 
 <h1 align="center">
-<img src="https://img.shields.io/static/v1?label=Site&message=HTML/SASS/JS&color=3498db&style=for-the-badge&logo="/>
+<img src="https://img.shields.io/static/v1?label=Site&message=HTML/CSS/JS&color=3498db&style=for-the-badge&logo="/>
 <img src="https://img.shields.io/static/v1?label=Status&message=Concluido&color=#2ecc71&style=for-the-badge&logo="/>
 </h1>
 
