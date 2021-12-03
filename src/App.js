@@ -3,7 +3,7 @@ import React from "react";
 import {
   Footer,
   Blog,
-  Possibility,
+  Products,
   Features,
   WhatTractian,
   Header,
@@ -20,7 +20,7 @@ const App = () => {
       </div>
       <WhatTractian />
       <Features />
-      <Possibility />
+      <Products />
       <CTA />
       <Blog />
       <Footer />

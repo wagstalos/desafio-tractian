@@ -8,13 +8,13 @@ import 'react-tabs/style/react-tabs.css';
 
 const WhatTractian = () => {
     return (
-        <div className="gpt3__whatTractian section__padding">
+        <div className="traction__whatTractian section__padding">
             <div>
                 <h4>MANUTENÇÃO PREDITIVA DESCOMPLICADA</h4>
                 <h2>Mantenha a sua equipe e seus ativos com o <strong>melhor desempenho</strong> </h2>
             </div>
             <div className="">
-                {/* <div className="gpt3__whatTractian-column">
+                {/* <div className="traction__whatTractian-column">
                     <img src={sensor} />
                 </div> */}
                 <div className="">

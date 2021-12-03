@@ -1,11 +1,11 @@
-.gpt3__brand {
+.traction__brand {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.gpt3__brand div {
+.traction__brand div {
     flex: 1;
     max-width: 150px;
     min-width: 120px;
@@ -14,4 +14,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.traction__brand img {
+    width: 100px;
+    filter: grayscale(1);
+}
+
+@media screen and (max-width: 550px) {
+    .traction__brand {
+        display: none;
+    }
 }

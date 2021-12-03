@@ -1,4 +1,4 @@
-.gpt3__whatTractian {
+.traction__whatTractian {
     display: flex;
     flex-direction: column;
     font-family: var(--font-family);
@@ -6,7 +6,20 @@
     background-color: #fafafa;
 }
 
-.gpt3__whatTractian button {
+.traction__whatTractian button {
+    background-color: var(--color-main);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid var(--color-main) 1px;
+    font-weight: 700;
+    color: var(--color-bg);
+    padding: 13px 22px;
+    font-size: 16px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.traction__whatTractian button:hover {
     background-color: transparent;
     padding: 10px;
     border-radius: 10px;
@@ -15,43 +28,30 @@
     color: var(--color-main);
     padding: 13px 22px;
     font-size: 16px;
-    transition: all .5s;
-    cursor: pointer;
-}
-
-.gpt3__whatTractian button:hover {
-    background-color: var(--color-main);
-    padding: 10px;
-    border-radius: 10px;
-    border: solid var(--color-bg) 1px;
-    font-weight: 700;
-    color: var(--color-bg);
-    padding: 13px 22px;
-    font-size: 16px;
 
 }
 
-.gpt3__whatTractian h4 {
+.traction__whatTractian h4 {
     color: var(--color-main);
     padding-top: 80px;
 }
 
-.gpt3__whatTractian h2 {
+.traction__whatTractian h2 {
     margin-bottom: 10px;
 }
 
-.gpt3__whatTractian-column {
+.traction__whatTractian-column {
     width: 50%;
 }
 
-.gpt3__whatTractian-content {
+.traction__whatTractian-content {
     display: flex;
     flex: 1;
     justify-content: space-around;
 
 }
 
-.gpt3__whatTractian img {
+.traction__whatTractian img {
     width: 50%;
 }
 
@@ -73,18 +73,19 @@
 .react-tabs__tab {
     color: #9c9c9c;
     font-weight: 800;
+    padding: 10px 12px !important;
 }
 
 .react-tabs__tab-list {
     border-bottom: 1px solid #fff !important;
     background-color: #f2f2f2;
     display: inline-block;
-    padding: 8px;
+    padding: 8px !important;
     border-radius: 36px;
 }
 
 @media screen and (max-width: 650px) {
-    .gpt3__whatTractian-column {
+    .traction__whatTractian-column {
         width: 100%;
         display: flex;
         flex-direction: row;

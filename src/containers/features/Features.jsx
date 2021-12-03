@@ -5,10 +5,10 @@ import logo from '../../assets/logo.svg';
 
 const Features = () => {
     return (
-        <div className="gpt3__features section__padding">
+        <div className="traction__features section__padding">
             <div className="flex">
                 <div className="card">
-                    <img className="card-img-top" src={cmms} alt="" />
+                    <img className="card-img-top" src={cmms} alt="TracOS" />
                     <img className="logo" src={logo} alt="loggo tractian" />
                     <h2>TracOS</h2>
                     <p className="text-light lead mt-40">
@@ -20,8 +20,8 @@ const Features = () => {
 
                 </div>
                 <div className="card">
-                    <img className="card-img-top" src={cmms} alt="" />
-                    <img className="logo" src={logo} alt="loggo tractian" />
+                    <img className="card-img-top" src={cmms} alt="Smart Trac" />
+                    <img className="logo" src={logo} alt="logo tractian" />
                     <h2> Smart Trac</h2>
                     <p className="text-light lead mt-40">
                         O sistema preditivo mais completo do mercado. Mais visibilidade, segurança e controle de forma simples e inteligente.
