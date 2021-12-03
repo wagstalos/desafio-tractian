@@ -13,11 +13,10 @@ const Navbar = () => {
                     <img src={logo} alt="logo Tractian" />
                 </div>
                 <div className="traction__navbar-links_container">
-                    <p><a href="#home">Conheça o produto</a></p>
-                    <p><a href="#wtraction">Sobre nós</a></p>
-                    <p><a href="#possibility">Materias gratuitos</a></p>
-                    <p><a href="#features">Blog</a></p>
-                    <p><a href="#blog">Library</a></p>
+                    <p><a href="#features">Conheça o produto</a></p>
+                    <p><a href="#wtraction">Manutençao preditiva</a></p>
+                    <p><a href="#tractian">Tractian</a></p>
+                    <p><a href="#blog">Blog</a></p>
                 </div>
             </div>
             <div className="traction__navbar-sign">
@@ -32,11 +31,10 @@ const Navbar = () => {
                 {toggleMenu && (
                     <div className="traction__navbar-menu_container scale-up-center">
                         <div className="traction__navbar-menu_container-links">
-                            <p><a href="#home">Conheça o produto</a></p>
-                            <p><a href="#wtraction">Sobre nós</a></p>
-                            <p><a href="#possibility">Materias gratuitos</a></p>
-                            <p><a href="#features">Blog</a></p>
-                            <p><a href="#blog">Library</a></p>
+                            <p><a href="#features">Conheça o produto</a></p>
+                            <p><a href="#wtraction">Manutençao preditiva</a></p>
+                            <p><a href="#tractian">Tractian</a></p>
+                            <p><a href="#blog">Blog</a></p>
                         </div>
                         <div className="traction__navbar-menu_container-links-sign">
                             {/* <p>Sign in</p> */}

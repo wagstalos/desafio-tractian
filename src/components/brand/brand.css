@@ -1,6 +1,6 @@
 .traction__brand {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
 }
@@ -9,7 +9,6 @@
     flex: 1;
     max-width: 150px;
     min-width: 120px;
-    margin: 1rem;
 
     display: flex;
     justify-content: center;
@@ -19,7 +18,15 @@
 .traction__brand img {
     width: 100px;
     filter: grayscale(1);
+    transition: all .5;
 }
+
+.traction__brand img:hover {
+    width: 100px;
+    filter: grayscale(0.5);
+    transition: all .5;
+}
+
 
 @media screen and (max-width: 550px) {
     .traction__brand {

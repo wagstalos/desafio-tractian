@@ -17,6 +17,7 @@
     font-size: 16px;
     transition: all .5s;
     cursor: pointer;
+    margin-bottom: 80px;
 }
 
 .traction__whatTractian button:hover {

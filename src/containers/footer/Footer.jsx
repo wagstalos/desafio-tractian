@@ -34,7 +34,7 @@ const Footer = () => (
         </div>
 
         <div className="traction__footer-copyright">
-            <p>@2021 Wagner Paulo. All rights reserved.</p>
+            <p>@2021 desenvolvido por <a href="http://portfolio.wpsgames.com.br/"> <strong>Wagner Paulo</strong> </a> . All rights reserved.</p>
         </div>
     </div>
 );

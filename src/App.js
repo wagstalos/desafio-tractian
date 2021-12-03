@@ -1,5 +1,7 @@
 import React from "react";
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   Footer,
   Blog,
@@ -12,6 +14,13 @@ import { CTA, Navbar } from "./components";
 import "./App.css";
 
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 1000,
+      easing: "ease",
+    });
+  });
   return (
     <div className="App">
       <div className="gradient__bg">

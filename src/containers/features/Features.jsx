@@ -5,7 +5,7 @@ import logo from '../../assets/logo.svg';
 
 const Features = () => {
     return (
-        <div className="traction__features section__padding">
+        <div className="traction__features section__padding" id="features">
             <div className="flex">
                 <div className="card">
                     <img className="card-img-top" src={cmms} alt="TracOS" />

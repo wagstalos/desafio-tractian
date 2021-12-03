@@ -7,11 +7,11 @@
     padding: 2rem;
     margin: 4rem;
     border-radius: 1rem;
-    background: var(--gradient-bar)
+    background: var(--color-blue)
 }
 
 .traction__cta img {
-    max-width: 200px;
+    max-width: 250px;
 }
 
 .traction__cta-content {
@@ -37,10 +37,6 @@
 }
 
 .traction__cta-btn {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;*/
-
     margin-top: 20px;
 }
 
@@ -67,6 +63,7 @@
     .traction__cta-btn {
         margin: 0 auto;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
 }
 
