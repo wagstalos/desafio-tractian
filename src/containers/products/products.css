@@ -41,10 +41,11 @@
     color: var(--color-blue);
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 900px) {
     .traction__products .flex {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         margin: 10px;
     }
 }

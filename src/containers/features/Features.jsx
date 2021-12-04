@@ -8,7 +8,7 @@ const Features = () => {
     return (
         <div className="traction__features section__padding" id="features">
             <div className="flex">
-                <div className="card">
+                <div className="card" data-aos="flip-left">
                     <img className="card-img-top" src={cmms} alt="TracOS" />
                     <img className="logo" src={logo} alt="loggo tractian" />
                     <h2>TracOS</h2>
@@ -18,7 +18,7 @@ const Features = () => {
                     <Button className="btn btn-primary mt-40"> Conheça TracOS </Button>
 
                 </div>
-                <div className="card">
+                <div className="card" data-aos="flip-left">
                     <img className="card-img-top" src={cmms} alt="Smart Trac" />
                     <img className="logo" src={logo} alt="logo tractian" />
                     <h2> Smart Trac</h2>

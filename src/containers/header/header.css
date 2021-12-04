@@ -1,6 +1,7 @@
 .traction__header {
     display: flex;
     flex-direction: row;
+    z-index: -1;
 }
 
 .traction__header-content {

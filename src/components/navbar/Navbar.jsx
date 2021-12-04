@@ -4,7 +4,6 @@ import logo from '../../assets/logo.svg';
 import './navbar.css';
 import Button from '../../components/button/Button';
 
-
 const Navbar = () => {
     const [toggleMenu, setToogleMenu] = useState(false);
     return (
@@ -23,15 +22,14 @@ const Navbar = () => {
             <div className="traction__navbar-sign">
                 {/* <p>Sign in</p> */}
                 <Button className="btn btn-primary"> Demostração </Button>
-                {/* <button type="button">Demostração</button> */}
             </div>
-            <div className="traction__navbar-menu">
+            <div className="traction__navbar-menu" >
                 {toggleMenu
                     ? <RiCloseLine color="#fff" onSize={27} onClick={() => setToogleMenu(false)} />
                     : <RiMenu3Line color="#fff" onSize={27} onClick={() => setToogleMenu(true)} />
                 }
                 {toggleMenu && (
-                    <div className="traction__navbar-menu_container scale-up-center">
+                    <div className="traction__navbar-menu_container scale-up-center" data-aos="zoom-in">
                         <div className="traction__navbar-menu_container-links">
                             <p><a href="#features">Conheça o produto</a></p>
                             <p><a href="#wtraction">Manutençao preditiva</a></p>
@@ -40,7 +38,6 @@ const Navbar = () => {
                         </div>
                         <div className="traction__navbar-menu_container-links-sign">
                             {/* <p>Sign in</p> */}
-                            {/* <button type="button">Demostração</button> */}
                             <Button className="btn btn-primary"> Demostração </Button>
                         </div>
                     </div>

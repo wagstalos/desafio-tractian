@@ -19,6 +19,7 @@ const App = () => {
       offset: 100,
       duration: 1000,
       easing: "ease",
+      anchorPlacement: 'top-bottom',
     });
   });
   return (
