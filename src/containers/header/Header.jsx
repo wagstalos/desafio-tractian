@@ -2,6 +2,7 @@ import React from 'react';
 import ai from '../../assets/ai.png';
 import './header.css';
 import Brand from '../../components/brand/Brand';
+import Button from '../../components/button/Button';
 
 const Header = () => (
     <div className="traction__header section__padding" id="home">
