@@ -39,21 +39,25 @@ a {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  padding: 10px 45px;
+  padding: 0.5rem 2rem;
   color: #fff;
   cursor: pointer;
   outline: none;
 
   border-radius: 10px;
-  margin-top: 30px;
 }
 
 .btn-primary {
   background: var(--color-main);
-  border: 2px solid var(--color-main);
+  border: 1px solid var(--color-main);
+  transition: all .5s;
 }
 
-.btn-secundary {}
+.btn-primary:hover {
+  transition: all .5s;
+  background: var(--color-main);
+  color: var(--color-blog);
+}
 
 .gradient__bg {
   background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);

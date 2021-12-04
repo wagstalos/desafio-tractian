@@ -55,17 +55,10 @@
 
 .traction__navbar-sign button,
 .traction__navbar-menu_container button {
-    padding: 0.5rem 1rem;
-    color: #fff;
-    background: var(--color-main);
-    font-family: var(--font-family);
-    font-weight: 500;
+    padding: 0.3rem 1rem;
     font-size: 18px;
-    line-height: 25px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5px;
+    background-color: transparent;
+    min-height: 30px;
 }
 
 .traction__navbar-menu {

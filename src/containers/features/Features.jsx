@@ -2,6 +2,7 @@ import React from 'react';
 import './features.css';
 import cmms from '../../assets/sensor-plataforma-celular-tablet.png'
 import logo from '../../assets/logo.svg';
+import Button from '../../components/button/Button';
 
 const Features = () => {
     return (
@@ -14,9 +15,7 @@ const Features = () => {
                     <p className="text-light lead mt-40">
                         O CMMS revolucionário para planejar, acompanhar métricas e conectar-se com sua equipe.
                     </p>
-                    <button>
-                        Conheça TracOS
-                    </button>
+                    <Button className="btn btn-primary mt-40"> Conheça TracOS </Button>
 
                 </div>
                 <div className="card">
@@ -26,9 +25,7 @@ const Features = () => {
                     <p className="text-light lead mt-40">
                         O sistema preditivo mais completo do mercado. Mais visibilidade, segurança e controle de forma simples e inteligente.
                     </p>
-                    <button>
-                        Conheça o Smart Trac
-                    </button>
+                    <Button className="btn btn-primary mt-40"> Conheça o Smart Trac </Button>
 
                 </div>
             </div>

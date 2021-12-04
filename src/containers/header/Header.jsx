@@ -11,7 +11,7 @@ const Header = () => (
             <p>Evite falhas nas suas máquinas e torne o tempo de inatividade uma coisa do passado com sistema preditivo da <strong>TRACTIAN.</strong></p>
 
             <div className="center-mobile">
-                <button className="btn btn-primary" type="button">Demostração</button>
+                <Button className="btn btn-primary mt-40"> Demostração </Button>
             </div>
 
             <div className="traction__header-content__people">

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { RiMenu3Line, RiCloseLin, RiCloseLine } from 'react-icons/ri';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
 import './navbar.css';
+import Button from '../../components/button/Button';
 
 
 const Navbar = () => {
@@ -21,7 +22,8 @@ const Navbar = () => {
             </div>
             <div className="traction__navbar-sign">
                 {/* <p>Sign in</p> */}
-                <button type="button">Demostração</button>
+                <Button className="btn btn-primary"> Demostração </Button>
+                {/* <button type="button">Demostração</button> */}
             </div>
             <div className="traction__navbar-menu">
                 {toggleMenu
@@ -38,7 +40,8 @@ const Navbar = () => {
                         </div>
                         <div className="traction__navbar-menu_container-links-sign">
                             {/* <p>Sign in</p> */}
-                            <button type="button">Demostração</button>
+                            {/* <button type="button">Demostração</button> */}
+                            <Button className="btn btn-primary"> Demostração </Button>
                         </div>
                     </div>
                 )}
